@@ -12,5 +12,15 @@ Remember, it's self-paced so feel free to take a break! ☕️
 
 ---
 
+## Testing
+
+Run the unit tests with pytest from the repository root. This project already exposes the `src` package via `pytest.ini`.
+
+```bash
+pip install -r requirements.txt
+pytest
+```
+
+
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
