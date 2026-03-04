@@ -142,3 +142,33 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* participants list styling */
+.participants-list {
+  list-style-type: none; /* hide bullets */
+  margin-left: 0;
+  margin-top: 5px;
+  padding-left: 0;
+}
+
+.participants-list li {
+  padding: 2px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.participants-list .remove {
+  cursor: pointer;
+  color: #c62828;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.participants-list .remove:hover {
+  color: #a50e0e;
+}
+.no-participants {
+  font-style: italic;
+  color: #666;
+}
